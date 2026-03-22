@@ -11,12 +11,12 @@ This roadmap is organized by dependency order, not by timeline. Each phase produ
 This phase produces no visible product. It produces the infrastructure, tooling, and conventions that every subsequent phase depends on.
 
 ### Infrastructure & Deployment
-- [ ] Initialize monorepo structure (frontend, backend, docs)
-- [ ] Set up Python/FastAPI project with dependency management (uv or Poetry)
-- [ ] Set up React + TypeScript project (Vite)
+- [X] Initialize monorepo structure (frontend, backend, docs)
+- [X] Set up Python/FastAPI project with dependency management (uv)
+- [X] Set up React + TypeScript project (Vite)
 - [ ] Configure Railway project for backend deployment
 - [ ] Configure Vercel project for frontend deployment
-- [ ] Set up Supabase project (PostgreSQL database)
+- [X] Set up Supabase project (PostgreSQL database)
 - [ ] Configure environment variable management (local + deployed)
 - [ ] Establish dev/staging/production environment separation
 
